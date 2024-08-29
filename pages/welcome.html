@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\xampp\htdocs\php-lfis\pages\wel.css">
+  <title>Lost and Found</title>
+  <style>
+    /* Your existing styles here */
+
+/* Your existing styles here */
+
+.main {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Align to top */
+  min-height: 30vh; /* Minimum height of viewport */
+}
+
+.intro {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.part-1 {
+  width: 100%; /* Take full width */
+  text-align: center; /* Center text inside */
+}
+
+.title {
+  width: 100%; /* Take full width */
+  margin: 0; /* Remove default margin */
+}
+
+.title > h1 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Staatliches", cursive;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove padding */
+}
+
+.title > p {
+  font-size: 26px;
+  font-family: "Staatliches", cursive;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove padding */
+}
+
+/* Other styles remain unchanged */
+
+
+
+.image {
+  margin-right: 25px;
+}
+
+.button {
+  /* background-color: #ddd; */
+  border: 2px solid black;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.post-item {
+  align-self: center;
+  /* margin-bottom: 2%; */
+}
+.About {
+  background-color: #7ae1f182;
+}
+.About > h1 {
+  margin-left: 2%;
+  font-family: "Staatliches", cursive;
+}
+
+
+
+.total-inspiration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -5%;
+}
+
+.inspiration {
+  /* margin: 5% 0px; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* width: 500px; */
+  max-width: 700px;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.section-heading {
+  color: #2e186a;
+  margin: auto;
+  font-size: 2.575rem;
+  padding: 0.5rem 0;
+  /* font-size: 30px; */
+  font-family: "Staatliches", cursive;
+  border-bottom: 3px solid #2e186a;
+}
+
+.inspiration > p {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.btn-custom {
+  margin: auto;
+  background-color: #2e186a;
+  color: white;
+  margin: 2%;
+}
+.btn-custom:hover {
+  color: white;
+}
+/* .custom:hover{
+  background-color: #392277;
+} */
+.total-about {
+  margin-top: 10%;
+}
+.total-about > .section-heading {
+  text-align: center;
+}
+
+.about-heading {
+  width: max-content;
+  margin: auto;
+}
+
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  justify-content: space-around;
+}
+
+.info {
+  text-align: center;
+  box-shadow: 0px 5px 25px 0px rgb(204 204 204 / 75%);
+  max-width: 385px;
+}
+
+p {
+  color: rgb(52, 61, 72);
+  font-size: 1.125rem;
+}
+
+.total-contact-form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.contact-title > .section-heading {
+  width: fit-content;
+  margin: 0;
+}
+.contact-title {
+  margin: 0px 25px;
+}
+
+.contact-form {
+  flex-grow: 2;
+  margin-right: 25px;
+}
+
+.contact-title > p {
+  max-width: 560px;
+}
+.developer-img {
+  width: 500px;
+  height: 500px;
+}
+@media (max-width: 1020px) {
+  .image {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .developer-img {
+    /* display: none; */
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  .info {
+    margin: 10px 0px;
+  }
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div data-aos="fade-right" class="main">
+    <div class="intro">
+      <div class="part-1">
+        <div class="title">
+          <h1 id="title-h">Lost and Found</h1>
+          <p>Lost it😕. List it📃. Find it🤩.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-aos="fade-left">
+    <Container fluid>
+      <div class="total-about">
+        <div ref={ref} class="about-heading">
+          <h6 class="section-heading">Our Project Inspiration💡</h6>
+        </div>
+        <p style="margin-top:15px; padding: 20px; width:85%;margin-left: 7.5%;font-family: cursive;">
+          Colleges are the place where we come to home mentioning about
+          losing our new earphone which might have kept in a desk but not
+          sure if it's still there. This problem feels so relatable to most
+          of the college students. A problem will still remain the same
+          until someone builds a solution to it.
+        </p>
+      </Row>
+    </Container>
+  </div>
+
+  <div data-aos="fade-left">
+    <Container fluid>
+      <div class="total-about">
+        <div ref={ref} class="about-heading">
+          <h6 class="section-heading">How it works ⚒️?</h6>
+        </div>
+        <div class="about-card">
+          <div class="info">
+            <b><h4>Login your account</h4></b>
+            <p style="font-family: cursive;">Initially, you have to login your account to get started.</p>
+          </div>
+          <div class="info">
+            <b><h4>List Lost/Found Item</h4></b>
+            <p style="font-family: cursive;">
+              List your item on the wall by filling certain details and
+              image. That's it !
+            </p>
+          </div>
+          <div class="info">
+            <b><h4>Found it</h4></b>
+            <p style="font-family: cursive;">
+              Search your item in the whole list and Claim it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </div>
+  
+</body>
+
+</html>
+
